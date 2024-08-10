@@ -107,8 +107,7 @@ using the Google Cloud Vision API for text extraction and local processing with 
 - To run tests, use the command:
 
 ```bash
-        Copy code
-        pytest tests/
+ pytest tests/
 ```
 
 ## Linting
@@ -116,7 +115,6 @@ using the Google Cloud Vision API for text extraction and local processing with 
 - To check your code for standards compliance, use Flake8. Run the command:
 
 ```bash
-Copy code
 flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --show-source --statistics
 flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 ```
@@ -252,7 +250,6 @@ Microsoft Word с соблюдением определенных техниче
 - Для запуска тестов используйте команду:
 
 ```bash
-Копировать код
 pytest tests/
 ```
 
@@ -261,7 +258,6 @@ pytest tests/
 - Для проверки кода на соответствие стандартам используйте Flake8. Запустите команду:
 
 ```bash
-Копировать код
 flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --show-source --statistics
 flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 ```
