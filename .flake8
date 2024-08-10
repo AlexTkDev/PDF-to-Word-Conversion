@@ -1,0 +1,11 @@
+[flake8]
+
+exclude =
+    migrations
+
+max-line-length = 127
+
+# Файлы для проверки
+filename =
+    PDF_processing_with_Google_Cloud_Vision_API.py
+    processing_PDF_locally.py
