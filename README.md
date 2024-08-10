@@ -15,6 +15,8 @@ using the Google Cloud Vision API for text extraction and local processing with 
 - **Pillow**: For image processing.
 - **python-docx**: For creating and editing Word documents.
 - **tqdm**: For displaying progress.
+- **Flake8**: For linting.
+- **Pytest**: For tests.
 
 ## Installation
 
@@ -158,6 +160,8 @@ Microsoft Word с соблюдением определенных техниче
 - **Pillow**: Для обработки изображений.
 - **python-docx**: Для создания и редактирования документов Word.
 - **tqdm**: Для отображения прогресса выполнения.
+- **Flake8**: Для линтинга.
+- **Pytest**: Для тестов.
 
 ## Установка
 
