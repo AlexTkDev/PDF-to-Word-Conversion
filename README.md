@@ -102,6 +102,25 @@ using the Google Cloud Vision API for text extraction and local processing with 
       python processing_PDF_locally.py
       ```
 
+## Running tests
+
+- To run tests, use the command:
+
+```bash
+        Copy code
+        pytest tests/
+```
+
+## Linting
+
+- To check your code for standards compliance, use Flake8. Run the command:
+
+```bash
+Copy code
+flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --show-source --statistics
+flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+```
+
 ## Notes
 
 - In the script `PDF_processing_with_Google_Cloud_Vision_API.py`, replace `'path_to_your_google_credentials.json'` with
@@ -113,6 +132,10 @@ using the Google Cloud Vision API for text extraction and local processing with 
 - **PDF_processing_with_Google_Cloud_Vision_API.py**: Script for extracting text from images using Google Cloud Vision
   API and creating a Word document.
 - **processing_PDF_locally.py**: Script for extracting text from images using Tesseract and creating a Word document.
+
+## Contributing
+
+- If you want to make changes to the project, fork the repository, make your changes, and create a Pull Request.
 
 ## License
 
@@ -224,6 +247,25 @@ Microsoft Word с соблюдением определенных техниче
       python processing_PDF_locally.py
       ```
 
+## Запуск тестов
+
+- Для запуска тестов используйте команду:
+
+```bash
+Копировать код
+pytest tests/
+```
+
+## Linting
+
+- Для проверки кода на соответствие стандартам используйте Flake8. Запустите команду:
+
+```bash
+Копировать код
+flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --show-source --statistics
+flake8 PDF_processing_with_Google_Cloud_Vision_API.py processing_PDF_locally.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+```
+
 ## Примечания
 
 - В скрипте `PDF_processing_with_Google_Cloud_Vision_API.py` необходимо
@@ -236,6 +278,10 @@ Microsoft Word с соблюдением определенных техниче
   Vision API и создания документа Word.
 - **processing_PDF_locally.py**: Скрипт для извлечения текста из изображений с помощью Tesseract и создания документа
   Word.
+
+## Контрибьюция
+
+- Если вы хотите внести изменения в проект, создайте форк репозитория, сделайте ваши изменения и создайте Pull Request.
 
 ## Лицензия
 
